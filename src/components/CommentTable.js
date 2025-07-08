@@ -1,6 +1,6 @@
 import '../styles/components/commentTable.css'
 
-const CommentTable = ({ comments }) => {
+const CommentTable = ({comments}) => {
   return (
     <div className="table-container">
       <table className="comment-table">
@@ -24,7 +24,7 @@ const CommentTable = ({ comments }) => {
         </tbody>
       </table>
     </div>
-  );
-};
+  )
+}
 
 export default CommentTable

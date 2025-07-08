@@ -1,10 +1,9 @@
 .profile-card {
   background-color: white;
   overflow: hidden;
-    width: 80%;
+  width: 80%;
   margin: 0 auto;
 }
-
 
 .btn-back {
   background-color: transparent;
@@ -12,14 +11,16 @@
   font-weight: bold;
   padding-left: 0;
   padding-top: 6px;
+  color: #464661;
+  cursor: pointer;
 }
 
 .profile-header {
-  color: rgb(71, 70, 70);
+  color: #464661;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 10px;
+  gap: 7px;
   padding-bottom: 10px;
 }
 
@@ -33,7 +34,8 @@
   flex-direction: column;
   padding: 20px;
   gap: 30px;
-  border:  1px solid #eaecf0;
+  border: 1px solid #eaecf0;
+  border-radius: 4px;
 }
 
 .profile-avatar {
@@ -42,20 +44,20 @@
   align-items: center;
 }
 
-.profile-info{
-    display: flex;
-    flex-direction: column;
+.profile-info {
+  display: flex;
+  flex-direction: column;
 }
 
-.profile-info h3{
-    font-size: 20px;
-    margin: 0;
-    color: #333;
+.profile-info h3 {
+  font-size: 20px;
+  margin: 0;
+  color: #464661;
 }
-.profile-info p{
-    font-size: 15px;
-    margin: 0;
-    color: #918d8d;
+.profile-info p {
+  font-size: 15px;
+  margin: 0;
+  color: #83839c;
 }
 
 .avatar-circle {
@@ -68,7 +70,7 @@
   justify-content: center;
   font-size: 28px;
   font-weight: bold;
-  color: #38393a;
+  color: #464661;
 }
 
 .profile-details {
@@ -79,9 +81,6 @@
 }
 
 .detail-row {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
   margin-bottom: 12px;
   width: calc(50% - 10px);
   display: flex;
@@ -91,15 +90,40 @@
 }
 
 .detail-label {
-    font-size: 16px;
-  color: #adacac;
+  font-size: 16px;
+  color: #83839c;
   font-weight: 500;
 }
 
 .detail-value {
   background-color: #faf8f8;
   padding: 10px;
-  color: #8d8d8d;
+  color: #464661;
   font-size: 15px;
-  font-weight: 500; 
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .profile-card {
+    width: 90%;
+  }
+
+  .profile-content {
+    padding: 10px;
+  }
+
+  .detail-row {
+    width: 100%;
+    min-width: auto;
+  }
+
+  .avatar-circle {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+  }
+
+  .profile-header h2 {
+    font-size: 20px;
+  }
 }

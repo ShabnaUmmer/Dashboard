@@ -1,23 +1,23 @@
-.navbar{
-    background-color: #05223f;
-    padding: 20px 0 20px 0;
+.navbar {
+  background-color: #05223f;
+  padding: 20px 0 20px 0;
 }
-.logo{
-    width: 30px;
-    height: auto;
+.logo {
+  width: 30px;
+  height: auto;
 }
-.logo-container{
-    display: flex;
-    align-items: center;
-    color: white;
-    font-size: 20px;
+.logo-container {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 20px;
 }
-.navbar-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    margin: 0 auto;
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
 }
 .avatar-circle {
   width: 40px;
@@ -30,10 +30,31 @@
   font-size: 24px;
   color: #171525;
 }
-.user-container{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    color: #e1e1e7;
-    cursor: pointer;
+.user-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: #e1e1e7;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar-container {
+    width: 90%;
+    padding: 0 10px;
+  }
+
+  .logo-container {
+    font-size: 18px;
+  }
+
+  .avatar-circle {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+  }
+
+  .user-container span {
+    display: none;
+  }
 }

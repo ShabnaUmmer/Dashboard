@@ -41,7 +41,8 @@
   border-color: #4a6fa5;
 }
 
-.prev-btn, .next-btn {
+.prev-btn,
+.next-btn {
   font-weight: bold;
 }
 
@@ -56,9 +57,35 @@
   border-radius: 4px;
   background-color: white;
   cursor: pointer;
+  color: #464661;
 }
 
 .page-size-select:focus {
   outline: none;
   border-color: #4a6fa5;
+}
+
+@media (max-width: 768px) {
+  .pagination-container {
+    flex-direction: column;
+    gap: 15px;
+    align-items: stretch;
+  }
+
+  .items-info {
+    text-align: center;
+  }
+
+  .page-navigation {
+    justify-content: center;
+  }
+
+  .page-size-selector {
+    justify-content: center;
+  }
+
+  .page-btn {
+    padding: 5px 8px;
+    min-width: 28px;
+  }
 }
