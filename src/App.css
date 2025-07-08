@@ -13,25 +13,3 @@ body {
 
 
 
-.btn {
-  cursor: pointer;
-  font-size: 14px;
-  transition: background-color 0.3s;
-}
-
-.btn-primary {
-  background-color: #4a6fa5;
-  color: white;
-}
-
-.btn-primary:hover {
-  background-color: #3a5a8f;
-}
-
-.btn-back {
-  background-color: transparent;
-  border: none;
-  font-weight: bold;
-  padding-left: 0;
-  padding-top: 6px;
-}
