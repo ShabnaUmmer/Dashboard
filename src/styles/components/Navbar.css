@@ -1,0 +1,39 @@
+.navbar{
+    background-color: #05223f;
+    padding: 20px 0 20px 0;
+}
+.logo{
+    width: 30px;
+    height: auto;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.avatar-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #faf8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #171525;
+}
+.user-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #e1e1e7;
+    cursor: pointer;
+}

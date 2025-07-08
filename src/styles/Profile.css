@@ -1,0 +1,12 @@
+.profile-container {
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+  color: #666;
+}
